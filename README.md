@@ -1,3 +1,9 @@
+## Overview
+
+This is a simple XCode extension to convert a one-line function call (or declaration) into a multi-line one. Useful for functions with many parameters.
+
+![Convert to Multi-Line Function Xcode Extension - Sort Imports Demo](example_usage.gif)
+
 ## Installation
 
 - Download latest *Convert to Multi-Line Function* package from the [Releases](https://github.com/chrischute/xcode-multi-line-func/releases).
