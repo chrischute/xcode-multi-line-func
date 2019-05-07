@@ -11,7 +11,35 @@
 		7B6AC04E2281275600A5E7A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6AC04D2281275600A5E7A0 /* ViewController.swift */; };
 		7B6AC0502281275600A5E7A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6AC04F2281275600A5E7A0 /* Assets.xcassets */; };
 		7B6AC0532281275600A5E7A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6AC0512281275600A5E7A0 /* Main.storyboard */; };
+		7B6AC0622281277B00A5E7A0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6AC0612281277B00A5E7A0 /* Cocoa.framework */; };
+		7B6AC0652281277C00A5E7A0 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6AC0642281277C00A5E7A0 /* SourceEditorExtension.swift */; };
+		7B6AC0672281277C00A5E7A0 /* ConvertToMultiLineFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6AC0662281277C00A5E7A0 /* ConvertToMultiLineFunction.swift */; };
+		7B6AC06C2281277C00A5E7A0 /* Convert To Multi-Line Function.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7B6AC05F2281277B00A5E7A0 /* Convert To Multi-Line Function.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B6AC06A2281277C00A5E7A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B6AC0402281275600A5E7A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B6AC05E2281277B00A5E7A0;
+			remoteInfo = "Convert To Multi-Line Function";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7B6AC0702281277C00A5E7A0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7B6AC06C2281277C00A5E7A0 /* Convert To Multi-Line Function.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7B6AC0482281275600A5E7A0 /* Convert to Multi-Line Function.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Convert to Multi-Line Function.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -21,6 +49,12 @@
 		7B6AC0522281275600A5E7A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B6AC0542281275600A5E7A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B6AC0552281275600A5E7A0 /* Convert_to_Multi_Line_Function.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Convert_to_Multi_Line_Function.entitlements; sourceTree = "<group>"; };
+		7B6AC05F2281277B00A5E7A0 /* Convert To Multi-Line Function.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Convert To Multi-Line Function.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6AC0612281277B00A5E7A0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7B6AC0642281277C00A5E7A0 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		7B6AC0662281277C00A5E7A0 /* ConvertToMultiLineFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertToMultiLineFunction.swift; sourceTree = "<group>"; };
+		7B6AC0682281277C00A5E7A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B6AC0692281277C00A5E7A0 /* Convert_To_Multi_Line_Function.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Convert_To_Multi_Line_Function.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +65,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7B6AC05C2281277B00A5E7A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6AC0622281277B00A5E7A0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -38,6 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				7B6AC04A2281275600A5E7A0 /* Convert to Multi-Line Function */,
+				7B6AC0632281277B00A5E7A0 /* Convert To Multi-Line Function */,
+				7B6AC0602281277B00A5E7A0 /* Frameworks */,
 				7B6AC0492281275600A5E7A0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				7B6AC0482281275600A5E7A0 /* Convert to Multi-Line Function.app */,
+				7B6AC05F2281277B00A5E7A0 /* Convert To Multi-Line Function.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +108,25 @@
 			path = "Convert to Multi-Line Function";
 			sourceTree = "<group>";
 		};
+		7B6AC0602281277B00A5E7A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B6AC0612281277B00A5E7A0 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B6AC0632281277B00A5E7A0 /* Convert To Multi-Line Function */ = {
+			isa = PBXGroup;
+			children = (
+				7B6AC0642281277C00A5E7A0 /* SourceEditorExtension.swift */,
+				7B6AC0662281277C00A5E7A0 /* ConvertToMultiLineFunction.swift */,
+				7B6AC0682281277C00A5E7A0 /* Info.plist */,
+				7B6AC0692281277C00A5E7A0 /* Convert_To_Multi_Line_Function.entitlements */,
+			);
+			path = "Convert To Multi-Line Function";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -73,15 +137,34 @@
 				7B6AC0442281275600A5E7A0 /* Sources */,
 				7B6AC0452281275600A5E7A0 /* Frameworks */,
 				7B6AC0462281275600A5E7A0 /* Resources */,
+				7B6AC0702281277C00A5E7A0 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7B6AC06B2281277C00A5E7A0 /* PBXTargetDependency */,
 			);
 			name = "Convert to Multi-Line Function";
 			productName = "Convert to Multi-Line Function";
 			productReference = 7B6AC0482281275600A5E7A0 /* Convert to Multi-Line Function.app */;
 			productType = "com.apple.product-type.application";
+		};
+		7B6AC05E2281277B00A5E7A0 /* Convert To Multi-Line Function */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B6AC06D2281277C00A5E7A0 /* Build configuration list for PBXNativeTarget "Convert To Multi-Line Function" */;
+			buildPhases = (
+				7B6AC05B2281277B00A5E7A0 /* Sources */,
+				7B6AC05C2281277B00A5E7A0 /* Frameworks */,
+				7B6AC05D2281277B00A5E7A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Convert To Multi-Line Function";
+			productName = "Convert To Multi-Line Function";
+			productReference = 7B6AC05F2281277B00A5E7A0 /* Convert To Multi-Line Function.appex */;
+			productType = "com.apple.product-type.xcode-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -94,6 +177,9 @@
 				ORGANIZATIONNAME = chute;
 				TargetAttributes = {
 					7B6AC0472281275600A5E7A0 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7B6AC05E2281277B00A5E7A0 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -112,6 +198,7 @@
 			projectRoot = "";
 			targets = (
 				7B6AC0472281275600A5E7A0 /* Convert to Multi-Line Function */,
+				7B6AC05E2281277B00A5E7A0 /* Convert To Multi-Line Function */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +210,13 @@
 			files = (
 				7B6AC0502281275600A5E7A0 /* Assets.xcassets in Resources */,
 				7B6AC0532281275600A5E7A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6AC05D2281277B00A5E7A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +232,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7B6AC05B2281277B00A5E7A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6AC0652281277C00A5E7A0 /* SourceEditorExtension.swift in Sources */,
+				7B6AC0672281277C00A5E7A0 /* ConvertToMultiLineFunction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B6AC06B2281277C00A5E7A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B6AC05E2281277B00A5E7A0 /* Convert To Multi-Line Function */;
+			targetProxy = 7B6AC06A2281277C00A5E7A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7B6AC0512281275600A5E7A0 /* Main.storyboard */ = {
@@ -270,6 +381,7 @@
 		7B6AC0592281275600A5E7A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Convert to Multi-Line Function/Convert_to_Multi_Line_Function.entitlements";
 				CODE_SIGN_STYLE = Automatic;
@@ -289,6 +401,7 @@
 		7B6AC05A2281275600A5E7A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Convert to Multi-Line Function/Convert_to_Multi_Line_Function.entitlements";
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +414,46 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.stanford.cs193p.chute.Convert-to-Multi-Line-Function";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7B6AC06E2281277C00A5E7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Convert To Multi-Line Function/Convert_To_Multi_Line_Function.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LFVYJRDCNE;
+				INFOPLIST_FILE = "Convert To Multi-Line Function/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stanford.cs193p.chute.Convert-to-Multi-Line-Function.Convert-To-Multi-Line-Function";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7B6AC06F2281277C00A5E7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Convert To Multi-Line Function/Convert_To_Multi_Line_Function.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LFVYJRDCNE;
+				INFOPLIST_FILE = "Convert To Multi-Line Function/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stanford.cs193p.chute.Convert-to-Multi-Line-Function.Convert-To-Multi-Line-Function";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -322,6 +475,15 @@
 			buildConfigurations = (
 				7B6AC0592281275600A5E7A0 /* Debug */,
 				7B6AC05A2281275600A5E7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B6AC06D2281277C00A5E7A0 /* Build configuration list for PBXNativeTarget "Convert To Multi-Line Function" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6AC06E2281277C00A5E7A0 /* Debug */,
+				7B6AC06F2281277C00A5E7A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
