@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43C9432B27BFB868004C8AD5 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C9432A27BFB868004C8AD5 /* XcodeKit.framework */; };
+		43C9432C27BFB868004C8AD5 /* XcodeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 43C9432A27BFB868004C8AD5 /* XcodeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7B6AC04C2281275600A5E7A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6AC04B2281275600A5E7A0 /* AppDelegate.swift */; };
 		7B6AC04E2281275600A5E7A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6AC04D2281275600A5E7A0 /* ViewController.swift */; };
 		7B6AC0502281275600A5E7A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6AC04F2281275600A5E7A0 /* Assets.xcassets */; };
@@ -28,6 +30,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		43C9432D27BFB868004C8AD5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				43C9432C27BFB868004C8AD5 /* XcodeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7B6AC0702281277C00A5E7A0 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -42,6 +55,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		43C9432A27BFB868004C8AD5 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
 		7B6AC0482281275600A5E7A0 /* Convert to Multi-Line Function.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Convert to Multi-Line Function.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6AC04B2281275600A5E7A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B6AC04D2281275600A5E7A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +84,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B6AC0622281277B00A5E7A0 /* Cocoa.framework in Frameworks */,
+				43C9432B27BFB868004C8AD5 /* XcodeKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +126,7 @@
 		7B6AC0602281277B00A5E7A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				43C9432A27BFB868004C8AD5 /* XcodeKit.framework */,
 				7B6AC0612281277B00A5E7A0 /* Cocoa.framework */,
 			);
 			name = Frameworks;
@@ -156,6 +172,7 @@
 				7B6AC05B2281277B00A5E7A0 /* Sources */,
 				7B6AC05C2281277B00A5E7A0 /* Frameworks */,
 				7B6AC05D2281277B00A5E7A0 /* Resources */,
+				43C9432D27BFB868004C8AD5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
